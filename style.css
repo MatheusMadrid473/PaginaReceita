@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-family: "Alice", sans-serif;
+  line-height: 150%;
+  color: #573A37;
+}
+
+body{
+  background-image: url(./assets/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page{
+  width: 100%;
+  max-width: 50rem;
+  padding: 1.5rem;
+  background-color: #F0E8C2;
+  border-radius: 1.5rem;
+  margin: 3rem auto 1.75rem;
+}
+
+#main-image{
+  width: 100%;
+  border-radius: 1rem;
+  vertical-align: top;
+}
+
+main{
+  padding: 1.5rem;
+}
+
+section + section{
+  margin-top: 1.5rem;
+}
+
+#about p + p{
+  margin-top: .75rem;
+}
+
+h1{
+  line-height: 140%;
+  font-size: 2.5rem;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+h1, h2{
+  color: #291B1A;
+  margin-bottom: .25rem;
+  line-height: 150%;
+}
+
+ul{
+  padding-left: 1.5rem;
+}
+
+footer{
+  color: #F0E8C2;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+footer img{
+  vertical-align: middle;
+}
